@@ -42,5 +42,5 @@ jobs:
           release-type: node
           package-name: ${{env.ACTION_NAME}}
           command: release-pr
-                 apk-power:run
+          start:run-open
                  
